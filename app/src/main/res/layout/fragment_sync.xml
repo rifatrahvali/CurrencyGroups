@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SyncFragment"
+    android:background="@color/colorAccent"
+    android:padding="36dp">
+
+    <!-- -->
+
+    <TextView
+        android:id="@+id/sync_instant_data_information"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/group_chat_bar_layout"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="4dp"
+        android:drawableStart="@drawable/ic_currency_logo"
+        android:hint="Instant data information"
+        android:padding="12dp"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/tv_chf"
+        android:layout_below="@id/sync_instant_data_information"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:paddingLeft="10dp"
+        android:text="CHF"
+        android:textSize="24dp"
+        android:background="@drawable/entries"
+        />
+    <TextView
+        android:id="@+id/tv_cad"
+        android:layout_below="@+id/tv_chf"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="8dp"
+        android:paddingLeft="10dp"
+        android:text="CAD"
+        android:textSize="24dp"
+        android:background="@drawable/entries"
+        />
+    <TextView
+        android:id="@+id/tv_usd"
+        android:layout_below="@+id/tv_cad"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="30dp"
+        android:paddingLeft="10dp"
+        android:text="USD"
+        android:textSize="24dp"
+        android:background="@drawable/entries"
+        />
+    <TextView
+        android:id="@+id/tv_jpy"
+        android:layout_below="@+id/tv_usd"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="30dp"
+        android:paddingLeft="10dp"
+        android:text="JPY"
+        android:textSize="24dp"
+        android:background="@drawable/entries"
+        />
+    <TextView
+        android:id="@+id/tv_try"
+        android:layout_below="@+id/tv_jpy"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="30dp"
+        android:paddingLeft="10dp"
+        android:text="TRY"
+        android:textSize="24dp"
+        android:background="@drawable/entries"
+
+        />
+
+    <Button
+        android:id="@+id/btn_getRates"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/tv_try"
+        android:onClick="getRates"
+        android:text="Get Rates"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/buttons"/>
+
+</RelativeLayout>

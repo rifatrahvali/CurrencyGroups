@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CurrencyListsFragment"
+    android:padding="28dp">
+
+
+    <TextView
+        android:id="@+id/fragment_add_currency_group"
+        android:layout_below="@+id/signup_button"
+        android:layout_marginTop="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:text="Add Curency Group"
+        android:textSize="18dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="65dp"
+        android:background="@drawable/entries"
+        android:drawableStart="@drawable/ic_add_currency_group"
+        android:textColor="@color/colorPrimaryDark"
+        />
+    <TextView
+        android:id="@+id/fragment_currency_converter"
+        android:layout_below="@+id/fragment_add_currency_group"
+        android:layout_marginTop="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:text="Currency Converter"
+        android:textSize="18dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="65dp"
+        android:background="@drawable/entries"
+        android:drawableStart="@drawable/ic_currency_converter"
+        android:textColor="@color/colorPrimaryDark"
+        />
+    <TextView
+        android:id="@+id/fragment_settings"
+        android:layout_below="@+id/fragment_currency_converter"
+        android:layout_marginTop="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:text="Settings"
+        android:textSize="18dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="65dp"
+        android:background="@drawable/entries"
+        android:drawableStart="@drawable/ic_settings"
+        android:textColor="@color/colorPrimaryDark"
+        />
+    <TextView
+        android:id="@+id/fragment_exit"
+        android:layout_below="@+id/fragment_settings"
+        android:layout_marginTop="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:text="Exit"
+        android:textSize="18dp"
+        android:background="@drawable/entries"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="65dp"
+        android:drawableStart="@drawable/ic_exit_to_app"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+</RelativeLayout>
